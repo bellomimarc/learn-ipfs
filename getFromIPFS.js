@@ -4,7 +4,7 @@ const getFromIPFS = async (hash) => {
   const { PINATA_GATEWAY_URL, PINATA_GATEWAY_TOKEN } =
     process.env;
 
-    const CID = 'QmPyCYfL5oF79cfXjbt5cyr5hAZcyNrPNV9ytvUPdk8KT9'
+    const CID = 'QmR4xFdh1JhRmxR8wUZbXcU393RkdZDXxfjRoiaVzDBQxu'
 
   try {
     const res = await axios.get(
